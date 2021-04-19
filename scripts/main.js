@@ -1,0 +1,1 @@
+div = document.querySelector('div')
