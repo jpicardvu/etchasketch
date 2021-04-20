@@ -5,8 +5,23 @@
     <title>Etch-a-Sketch</title>
     <link href="styles/style.css" rel="stylesheet">
   </head>
+  
   <body>
-
-  <script src="scripts/main.js"></script>
+    
+    <header>
+      <h1>Etch-a-Sketch</h1>
+    </header>
+    
+    <form action="javascript:void(0);" id="area">
+      <label for="grid-size">Gride Size (1-100)</label>
+      <input type="number" id="grid-size" name="grid-size" min="1" max="100" value="100">
+      <input type="submit" value="Update Size/Clear" id="update-button">
+    </form>
+    
+    <div id="container"></div>
+    
+    <script src="scripts/main.js"></script>
+  
   </body>
-</html>
+
+  </html>
